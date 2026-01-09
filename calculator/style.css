@@ -1,0 +1,52 @@
+body{
+    background-color: #1f1f1f;
+}
+
+.cal{
+    background-color: rgb(242,236,233);
+    width: 287px;
+    padding: 10px;
+}
+
+.result{
+    height: 180px;
+}
+
+.keypad{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 65px);
+}
+
+.clear{
+    background-color: rgb(237,226,218);
+    color: rgb(199,34,36);
+    border: none;
+    border-radius: 50%;
+    height: 65px;
+}
+    
+
+.num{
+    background-color: rgb(237,226,218);
+    color: rgb(114,66,28);
+    border: none;
+    border-radius: 50%;
+    height: 65px;
+}
+
+.operator{
+    background-color: rgb(237,226,218);
+    color: rgb(52,88,40);
+    border: none;
+    border-radius: 50%;
+    height: 65px;
+}
+
+.operator_result{
+    background-color: rgb(76,146,58);
+    color: rgb(249,249,246);
+    border: none;
+    border-radius: 50%;
+    height: 65px;
+}
