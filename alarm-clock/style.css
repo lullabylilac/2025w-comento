@@ -1,0 +1,48 @@
+#battery-box {
+    float: right;
+    padding: 5px 15px;
+    background-color: #eeeeee;
+    margin-bottom: 20px;
+}
+
+#clock-screen {
+    clear: both;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.alarm-section {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.alarm-status {
+    margin-bottom: 20px;
+}
+
+.alarm-list {
+    width: 140px;
+    height: 70px;
+    background-color: #eeeeee;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.input-group {
+    clear: both;
+    padding-top: 20px;
+    text-align: left;
+}
+
+input {
+    width: 40px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+button {
+    background-color: #eeeeee;
+}

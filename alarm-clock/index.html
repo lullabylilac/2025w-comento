@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alarm-clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="battery-box">배터리 : <span id="bat-level">100</span>%</div>
+
+    <div id="clock-screen">
+        <p>시간</p>
+        <div id="time-display">2026-01-15 23:12:29</div>
+    </div>
+
+    <div class="alarm-section">
+        <div class="input-group">
+            알람 
+            <input type="number" id="h" placeholder="시">
+            <input type="number" id="m" placeholder="분">
+            <input type="number" id="s" placeholder="초">
+            <button onclick="addAlarm()">추가</button>
+            </div>
+        <div id="alarm-status">
+            <p>알람 현황</p>
+            <div id="alarm-list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
