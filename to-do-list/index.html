@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>to-do-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>to-do-list</h1>
+
+    <div class="card">
+        <h2>To-Do List</h2>
+        <input type="text" id="todoInput" placeholder="할 일을 입력하세요">
+        <button onclick="addTodo()">추가</button>
+        <ul id="todoDisplay"></ul>
+    </div>
+
+    <div class="card">
+        <h2>Join Member</h2>
+        <input type="text" id="joinId" placeholder="아이디"><br>
+        <input type="password" id="joinPw" placeholder="비밀번호(8자 이상)"><br>
+        <button onclick="joinMember()">가입하기</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
